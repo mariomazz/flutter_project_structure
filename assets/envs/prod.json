@@ -1,0 +1,29 @@
+{
+    "envname": "prod",
+    "privacy_url": "https://www.asfweb.it/index.php/privacy",
+    "login_scopes": [
+        "asfappusers",
+        "openid",
+        "profile",
+        "roles",
+        "offline_access",
+        "api",
+        "asfappcore",
+        "asfappprofile"
+    ],
+    "notification_hub_user_agent": "it.asf.school/fbce008c-b9ac-4aa3-928b-9fcaea28fa44/0.0.1",
+    "login_base_url": "https://login.asfweb.it",
+    "base_url": "https://api.smartpa.cloud/electoraladvertising/v1/",
+    "base_url_core": "https://api.smartpa.cloud/core/v1/",
+    "base_url_profile": "https://api.smartpa.cloud/profile/v1/",
+    "tenantId": "fbce008c-b9ac-4aa3-928b-9fcaea28fa44",
+    "clientId": "electoralmobileapp",
+    "redirectUrl": "it.asf.electoralsmartpa:/oauthredirect",
+    "issuer": "https://login.asfweb.it/fbce008c-b9ac-4aa3-928b-9fcaea28fa44",
+    "discoveryUrl": "https://login.asfweb.it/fbce008c-b9ac-4aa3-928b-9fcaea28fa44/.well-known/openid-configuration",
+    "postLogOutRedirectUrl": "it.asf.electoralsmartpa:/",
+    "authorization_endpoint": "https://login.asfweb.it/fbce008c-b9ac-4aa3-928b-9fcaea28fa44/connect/authorize",
+    "tokenEndpoint": "https://login.asfweb.it/fbce008c-b9ac-4aa3-928b-9fcaea28fa44/connect/token",
+    "endSessionPoint": "https://login.asfweb.it/fbce008c-b9ac-4aa3-928b-9fcaea28fa44/connect/endsession",
+    "loginAdditionalParameter": {}
+}
